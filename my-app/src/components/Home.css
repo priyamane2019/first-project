@@ -1,0 +1,118 @@
+.container-home
+{
+    width:99%;
+    height:100%;
+    margin:0;
+    padding: 0;
+}
+.content-home
+{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width:90%;
+    height:100%;
+    margin-left:2%;
+    padding: 0;
+    background-color:wheat;
+}
+.head1
+{
+    width:30%;
+    background-color: red;
+    color:white;
+    border-radius: 3%;
+}
+.head2
+{
+    width:50%;
+    background-color:yellowgreen;
+    color:white;
+    padding: 5%;
+    margin: 3%;
+    border-radius: 5%;
+}
+.row1
+{
+    display: flex;
+    justify-content:space-around;
+/* background-color:blue; */
+height:50%;
+width:90%;
+margin:1% 0% 2% 5%;
+}
+.row2
+{
+    display: flex;
+    justify-content:space-around;
+    height:50%;
+    width:90%;
+    margin:1% 0% 2% 5%;
+}
+.imgr1, .imgr2
+{
+    height:35%;
+    width:40%;
+}
+.row3
+{
+    display: flex;
+    justify-content:space-around;
+    height:50%;
+    width:90%;
+    margin:1% 0% 3% 5%;
+}
+.add
+{
+    background-color:hotpink;
+    width:30%;
+    height:30%;
+    color: white;
+    border-radius:3%;
+    margin-left:20%;
+    padding: 1%;
+}
+
+
+
+
+
+@media screen and  (max-width: 480px)
+{
+    .content-home
+{
+    margin:3% 3% 3% 3%;
+    padding: 0;
+    width:95%;
+    background-color:wheat;
+}
+    .row1 , .row2 , .row3
+    {
+        flex-direction: column;
+        height:50%;
+    }
+    .row1 img, .row2 img , .row3 img
+    {
+        
+        height:40%;
+    }
+     .imgr3, .imgr4 , .imgr5
+    {
+     width:80%;
+        height:25%;
+    }
+    .head1
+{
+    width:90%;
+}
+.add
+{
+    width:69%;
+}
+
+.imgr1, .imgr2
+{
+    height:80%;
+    width:100%;
+}
+}

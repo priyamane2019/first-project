@@ -1,0 +1,92 @@
+.container-about
+{
+    width:90%;
+    height:100%;
+    padding: 0;
+    margin:0;
+}
+.subcontainer-about
+{
+    
+    width: 80%;
+    height:90%;
+    background-color:aliceblue;
+    margin:50px 50px 5px 50px;
+    padding: 20px;
+    display: flex;
+}
+.para, .para2, .para3{
+    margin:10px;
+    font-style: normal;
+}
+.subcontainer-about2
+{
+    
+    width: 80%;
+    height:90%;
+    background-color:aliceblue;
+    margin:5px 50px 5px 50px;
+    padding: 20px;
+    display: flex;
+}
+
+.subcontainer-about3 , .subcontainer-about4
+{
+    
+    width: 80%;
+    height:90%;
+    justify-content: space-around;
+    background-color:aliceblue;
+    margin:5px 50px 5px 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.head
+{
+    align-items: center;
+    justify-content: center;
+    color:blue;
+    font-size:xx-large;
+}
+
+@media screen and  (max-width: 480px)
+{
+    img{
+        align-items: center;
+        justify-content: center;
+        margin:10px;
+        padding-left: 50px;
+    }
+    .img33{
+        width:300px;
+    }
+    .container-about
+{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin:0;
+}
+.subcontainer-about
+{
+    display: flex;
+    flex-direction: column;
+}
+.para, .para2, .para3{
+    margin:10px;
+    font-style: normal;
+}
+.subcontainer-about2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.subcontainer-about3 , .subcontainer-about4
+{
+    display: flex;
+    flex-direction: column;
+}
+
+}
